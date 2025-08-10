@@ -1,9 +1,12 @@
 import AnimatedSection from "@/components/animated-section";
+import BlogInsightSection from "@/components/blog-insight-section";
+import CommunityShowcase from "@/components/community-section";
 import DashboardPreview from "@/components/dashboard-preview";
 import EnhancedHeroSection from "@/components/enhanced-hero-section";
 import FloatingElements from "@/components/floating-elements";
 import { InteractiveBentoSection } from "@/components/interactive-bento-section";
 import { InteractiveCursor } from "@/components/interective-cursor";
+import LargeTestimonial from "@/components/large-testimonial";
 import SocialProof from "@/components/social-proof";
 
 export default function Home() {
@@ -30,10 +33,35 @@ export default function Home() {
           <SocialProof />
         </AnimatedSection>
 
-        <AnimatedSection id="features-section">
+        <AnimatedSection
+          id="features-section"
+          className="relative z-10 max-w-[1320px] mx-auto mt-16"
+          delay={0.2}
+        >
           <InteractiveBentoSection />
         </AnimatedSection>
 
+        <AnimatedSection
+          id="features-section"
+          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
+          delay={0.2}
+        >
+          <LargeTestimonial />
+        </AnimatedSection>
+
+        <AnimatedSection
+          className="relative z-10 w-full mt-8 md:mt-16 "
+          delay={0.2}
+        >
+          <BlogInsightSection />
+        </AnimatedSection>
+
+        <AnimatedSection
+          className="relative z-10 w-full mt-8 md:mt-16 "
+          delay={0.2}
+        >
+          <CommunityShowcase />
+        </AnimatedSection>
       </div>
     </div>
   );

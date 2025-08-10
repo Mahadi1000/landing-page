@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -176,6 +175,20 @@
     color: var(--color-foreground);
   }
 }
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    oklch(var(--primary)),
+    oklch(var(--accent-purple))
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important; /* Fallback for browsers that don't support background-clip */
+}
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 @layer utilities {
   .text-gradient {
@@ -189,7 +202,7 @@
     background-clip: text !important;
     color: transparent !important; /* Fallback for browsers that don't support background-clip */
   }
-    .hover-lift {
+  .hover-lift {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
@@ -197,10 +210,10 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   }
-    .glass-effect {
+  .glass-effect {
     @apply bg-glass backdrop-blur-xl border border-glass-border;
   }
-    .glow-effect {
+  .glow-effect {
     box-shadow: 0 0 20px hsl(var(--primary-glow));
   }
 }
