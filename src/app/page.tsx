@@ -7,6 +7,7 @@ import FloatingElements from "@/components/floating-elements";
 import { InteractiveBentoSection } from "@/components/interactive-bento-section";
 import { InteractiveCursor } from "@/components/interective-cursor";
 import LargeTestimonial from "@/components/large-testimonial";
+import PricingSection from "@/components/pricing-section";
 import SocialProof from "@/components/social-proof";
 
 export default function Home() {
@@ -61,6 +62,14 @@ export default function Home() {
           delay={0.2}
         >
           <CommunityShowcase />
+        </AnimatedSection>
+
+        <AnimatedSection
+          id="pricing-section"
+          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
+          delay={0.2}
+        >
+          <PricingSection />
         </AnimatedSection>
       </div>
     </div>
