@@ -1,8 +1,10 @@
 import AnimatedSection from "@/components/animated-section";
 import BlogInsightSection from "@/components/blog-insight-section";
 import CommunityShowcase from "@/components/community-section";
+import CTASection from "@/components/cta-section";
 import DashboardPreview from "@/components/dashboard-preview";
 import EnhancedHeroSection from "@/components/enhanced-hero-section";
+import FAQSection from "@/components/faq-section";
 import FloatingElements from "@/components/floating-elements";
 import { InteractiveBentoSection } from "@/components/interactive-bento-section";
 import { InteractiveCursor } from "@/components/interective-cursor";
@@ -79,6 +81,19 @@ export default function Home() {
           delay={0.2}
         >
           <TestimonialGridSection/>
+        </AnimatedSection>
+
+        <AnimatedSection
+          id="faq-section"
+          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
+          delay={0.2}
+        >
+          <FAQSection/>
+        </AnimatedSection>
+        <AnimatedSection
+          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
+        >
+          <CTASection/>
         </AnimatedSection>
 
 
