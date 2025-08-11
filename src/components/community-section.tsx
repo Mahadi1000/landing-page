@@ -85,7 +85,7 @@ const CommunityShowcase = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="!text-gradient">Community Spotlight</span>
+            <span className="text-gradient">Community Spotlight</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             See what amazing projects our community is building with Pointer AI.

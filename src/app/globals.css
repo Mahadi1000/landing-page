@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -178,8 +177,8 @@
 .text-gradient {
   background: linear-gradient(
     135deg,
-    oklch(var(--primary)),
-    oklch(var(--accent-purple))
+    var(--primary),
+    var(--accent-purple)
   ) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
@@ -194,8 +193,8 @@
   .text-gradient {
     background: linear-gradient(
       135deg,
-      oklch(var(--primary)),
-      oklch(var(--accent-purple))
+      var(--primary),
+      var(--accent-purple)
     ) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -214,6 +213,6 @@
     @apply bg-glass backdrop-blur-xl border border-glass-border;
   }
   .glow-effect {
-    box-shadow: 0 0 20px hsl(var(--primary-glow));
+    box-shadow: 0 0 20px var(--primary-glow);
   }
 }

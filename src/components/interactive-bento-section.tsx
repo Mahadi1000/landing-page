@@ -65,7 +65,7 @@ export function InteractiveBentoSection() {
       >
         <div className="flex flex-col justify-start items-center gap-6">
           <h2 className="w-full max-w-[700px] text-center text-foreground text-4xl md:text-6xl font-bold leading-tight md:leading-[66px]">
-            <span className="!text-gradient">Empower Your Workflow</span>
+            <span className="text-gradient">Empower Your Workflow</span>
             <br />
             with AI
           </h2>

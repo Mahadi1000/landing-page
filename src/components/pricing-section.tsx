@@ -2,6 +2,7 @@
 import { Check } from "lucide-react";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
+
 const pricingPlans = [
   {
     name: "Free",
@@ -64,7 +65,7 @@ const PricingSection = () => {
       <div className="self-stretch relative flex flex-col justify-center items-center gap-2 py-0">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-4xl md:text-5xl font-semibold leading-tight md:leading-[40px]">
-            Pricing built for every developer
+           <span className="text-gradient"> Pricing built for every developer</span>
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
             Choose a plan that fits your coding workflow, from individuals

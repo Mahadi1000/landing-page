@@ -58,7 +58,7 @@ const BlogInsightSection = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="!text-gradient">Insights & Updates</span>
+            <span className="text-gradient">Insights & Updates</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             Stay ahead of the curve with the latest insights on AI development,

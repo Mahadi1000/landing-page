@@ -9,6 +9,7 @@ import { InteractiveCursor } from "@/components/interective-cursor";
 import LargeTestimonial from "@/components/large-testimonial";
 import PricingSection from "@/components/pricing-section";
 import SocialProof from "@/components/social-proof";
+import TestimonialGridSection from "@/components/testimonial-grid-section";
 
 export default function Home() {
   return (
@@ -71,6 +72,16 @@ export default function Home() {
         >
           <PricingSection />
         </AnimatedSection>
+
+        <AnimatedSection
+          id="testimonial-section"
+          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
+          delay={0.2}
+        >
+          <TestimonialGridSection/>
+        </AnimatedSection>
+
+
       </div>
     </div>
   );
