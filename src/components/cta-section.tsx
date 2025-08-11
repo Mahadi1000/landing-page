@@ -13,6 +13,92 @@ const CTASection = () => {
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="xMidYMid slice"
         >
+          <defs>
+            <filter
+              id="filter0_f_182_1049"
+              x="-234.109"
+              y="-705.949"
+              width="1856.22"
+              height="1225.82"
+              filterUnits="userSpaceOnUse"
+              colorInterpolationFilters="sRGB"
+            >
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="129"
+                result="effect1_foregroundBlur_182_1049"
+              />
+            </filter>
+            <linearGradient
+              id="paint0_linear_182_1049"
+              x1="1118.79"
+              y1="273.562"
+              x2="269.215"
+              y2="273.562"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="oklch(0.15 0.02 225)" stopOpacity="0" />
+              <stop
+                offset="0.2"
+                stopColor="oklch(0.15 0.02 225)"
+                stopOpacity="0.8"
+              />
+              <stop
+                offset="0.8"
+                stopColor="oklch(0.15 0.02 225)"
+                stopOpacity="0.8"
+              />
+              <stop
+                offset="1"
+                stopColor="oklch(0.15 0.02 225)"
+                stopOpacity="0"
+              />
+            </linearGradient>
+            <radialGradient
+              id="paint1_radial_182_1049"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(683.482 245.884) rotate(-3.78676) scale(469.009 248.4)"
+            >
+              <stop offset="0.1294" stopColor="oklch(0.7 0.15 180)" />
+              <stop offset="0.2347" stopColor="oklch(0.7 0.15 180)" />
+              <stop
+                offset="0.3"
+                stopColor="oklch(0.7 0.15 180)"
+                stopOpacity="0"
+              />
+            </radialGradient>
+            <linearGradient
+              id="paint2_linear_182_1049"
+              x1="694"
+              y1="-446.446"
+              x2="694"
+              y2="263.369"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="white" stopOpacity="0" />
+              <stop offset="1" stopColor="white" stopOpacity="0.1" />
+            </linearGradient>
+            <linearGradient
+              id="paint3_linear_182_1049"
+              x1="694"
+              y1="-447.949"
+              x2="694"
+              y2="261.866"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="oklch(0.15 0.02 225)" />
+              <stop offset="1" stopColor="oklch(0.15 0.02 225)" />
+            </linearGradient>
+          </defs>
           <mask
             id="mask0_182_1049"
             style={{ maskType: "alpha" }}
@@ -56,88 +142,6 @@ const CTASection = () => {
               fill="url(#paint3_linear_182_1049)"
             />
           </g>
-          <defs>
-            <filter
-              id="filter0_f_182_1049"
-              x="-234.109"
-              y="-705.949"
-              width="1856.22"
-              height="1225.82"
-              filterUnits="userSpaceOnUse"
-              colorInterpolationFilters="sRGB"
-            >
-              <feFlood floodOpacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="129"
-                result="effect1_foregroundBlur_182_1049"
-              />
-            </filter>
-            <linearGradient
-              id="paint0_linear_182_1049"
-              x1="1118.79"
-              y1="273.562"
-              x2="269.215"
-              y2="273.562"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="(var(--background))" stopOpacity="0" />
-              <stop
-                offset="0.2"
-                stopColor="(var(--background))"
-                stopOpacity="0.8"
-              />
-              <stop
-                offset="0.8"
-                stopColor="(var(--background))"
-                stopOpacity="0.8"
-              />
-              <stop
-                offset="1"
-                stopColor="(var(--background))"
-                stopOpacity="0"
-              />
-            </linearGradient>
-            <radialGradient
-              id="paint1_radial_182_1049"
-              cx="0"
-              cy="0"
-              r="1"
-              gradientUnits="userSpaceOnUse"
-              gradientTransform="translate(683.482 245.884) rotate(-3.78676) scale(469.009 248.4)"
-            >
-              <stop offset="0.1294" stopColor="(var(--primary))" />
-              <stop offset="0.2347" stopColor="(var(--primary))" />
-              <stop offset="0.3" stopColor="(var(--primary))" stopOpacity="0" />
-            </radialGradient>
-            <linearGradient
-              id="paint2_linear_182_1049"
-              x1="694"
-              y1="-446.446"
-              x2="694"
-              y2="263.369"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="white" stopOpacity="0" />
-              <stop offset="1" stopColor="white" stopOpacity="0.1" />
-            </linearGradient>
-            <linearGradient
-              id="paint3_linear_182_1049"
-              x1="694"
-              y1="-447.949"
-              x2="694"
-              y2="261.866"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="(var(--background))" />
-              <stop offset="1" stopColor="(var(--background))" />
-            </linearGradient>
-          </defs>
         </svg>
       </div>
       <div>

@@ -6,6 +6,7 @@ import DashboardPreview from "@/components/dashboard-preview";
 import EnhancedHeroSection from "@/components/enhanced-hero-section";
 import FAQSection from "@/components/faq-section";
 import FloatingElements from "@/components/floating-elements";
+import { FooterSection } from "@/components/footer-section";
 import { InteractiveBentoSection } from "@/components/interactive-bento-section";
 import { InteractiveCursor } from "@/components/interective-cursor";
 import LargeTestimonial from "@/components/large-testimonial";
@@ -80,7 +81,7 @@ export default function Home() {
           className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
           delay={0.2}
         >
-          <TestimonialGridSection/>
+          <TestimonialGridSection />
         </AnimatedSection>
 
         <AnimatedSection
@@ -88,15 +89,18 @@ export default function Home() {
           className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
           delay={0.2}
         >
-          <FAQSection/>
+          <FAQSection />
         </AnimatedSection>
+        <AnimatedSection className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 ">
+          <CTASection />
+        </AnimatedSection>
+
         <AnimatedSection
-          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16 "
+          className="relative z-10 max-w-[1320px] mx-auto mt-8 md:mt-16"
+          delay={0.2}
         >
-          <CTASection/>
+          <FooterSection />
         </AnimatedSection>
-
-
       </div>
     </div>
   );
